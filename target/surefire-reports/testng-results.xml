@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T08:11:52 IST" name="Suite" finished-at="2024-03-20T08:13:23 IST" duration-ms="90593">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T08:11:52 IST" name="Test" finished-at="2024-03-20T08:13:23 IST" duration-ms="90593">
+      <class name="com.abby.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:11:55 IST" name="setUp" finished-at="2024-03-20T08:12:06 IST" duration-ms="10863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCreadentials(java.lang.String,java.lang.String)[pri:1, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:06 IST" name="verifyLoginWithValidCreadentials" data-provider="ValidCredentialProvider" finished-at="2024-03-20T08:12:07 IST" duration-ms="1091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCreadentials -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:07 IST" name="closed11" finished-at="2024-03-20T08:12:07 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:07 IST" name="setUp" finished-at="2024-03-20T08:12:13 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCreadentials(java.lang.String,java.lang.String)[pri:1, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:13 IST" name="verifyLoginWithValidCreadentials" data-provider="ValidCredentialProvider" finished-at="2024-03-20T08:12:14 IST" duration-ms="879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCreadentials -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:14 IST" name="closed11" finished-at="2024-03-20T08:12:14 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:14 IST" name="setUp" finished-at="2024-03-20T08:12:19 IST" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidCreadentials()[pri:2, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:19 IST" name="verifyLoginWithInvalidCreadentials" finished-at="2024-03-20T08:12:20 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCreadentials -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:20 IST" name="closed11" finished-at="2024-03-20T08:12:20 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:20 IST" name="setUp" finished-at="2024-03-20T08:12:25 IST" duration-ms="4670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:25 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-03-20T08:12:26 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:26 IST" name="closed11" finished-at="2024-03-20T08:12:26 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:26 IST" name="setUp" finished-at="2024-03-20T08:12:31 IST" duration-ms="4811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:31 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-03-20T08:12:31 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:31 IST" name="closed11" finished-at="2024-03-20T08:12:32 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:32 IST" name="setUp" finished-at="2024-03-20T08:12:40 IST" duration-ms="8314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutProvidingCredential()[pri:5, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:40 IST" name="verifyLoginWithoutProvidingCredential" finished-at="2024-03-20T08:12:41 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredential -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.LoginTest@1a6d8329]" started-at="2024-03-20T08:12:41 IST" name="closed11" finished-at="2024-03-20T08:12:41 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+      </class> <!-- com.abby.qa.testcases.LoginTest -->
+      <class name="com.abby.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:08 IST" name="setup" finished-at="2024-03-20T08:13:12 IST" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:12 IST" name="verifySearchWithValidProduct" finished-at="2024-03-20T08:13:12 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:12 IST" name="tearDown" finished-at="2024-03-20T08:13:13 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:13 IST" name="setup" finished-at="2024-03-20T08:13:17 IST" duration-ms="4091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithIvalidProduct()[pri:2, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:17 IST" name="verifySearchWithIvalidProduct" finished-at="2024-03-20T08:13:17 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithIvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:17 IST" name="tearDown" finished-at="2024-03-20T08:13:18 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:18 IST" name="setup" finished-at="2024-03-20T08:13:22 IST" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithOutAnyProduct()[pri:3, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:22 IST" name="verifySearchWithOutAnyProduct" finished-at="2024-03-20T08:13:23 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithOutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abby.qa.testcases.SearchTest@75437611]" started-at="2024-03-20T08:13:23 IST" name="tearDown" finished-at="2024-03-20T08:13:23 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.abby.qa.testcases.SearchTest -->
+      <class name="com.abby.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:41 IST" name="setUp" finished-at="2024-03-20T08:12:47 IST" duration-ms="5650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields()[pri:1, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:47 IST" name="verifyRegisteringAnAccountWithMandatoryFields" finished-at="2024-03-20T08:12:48 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:48 IST" name="closed11" finished-at="2024-03-20T08:12:48 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:48 IST" name="setUp" finished-at="2024-03-20T08:12:53 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithAllFields()[pri:2, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:53 IST" name="verifyRegisteringAnAccountWithAllFields" finished-at="2024-03-20T08:12:55 IST" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithAllFields -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:55 IST" name="closed11" finished-at="2024-03-20T08:12:55 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:12:55 IST" name="setUp" finished-at="2024-03-20T08:13:00 IST" duration-ms="4896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithExistingEmailAddress()[pri:3, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:13:00 IST" name="verifyRegisteringAnAccountWithExistingEmailAddress" finished-at="2024-03-20T08:13:01 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:13:01 IST" name="closed11" finished-at="2024-03-20T08:13:01 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:13:01 IST" name="setUp" finished-at="2024-03-20T08:13:06 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithoutFillingAnyData()[pri:4, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:13:06 IST" name="verifyRegisteringAnAccountWithoutFillingAnyData" finished-at="2024-03-20T08:13:08 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithoutFillingAnyData -->
+        <test-method is-config="true" signature="closed11()[pri:0, instance:com.abby.qa.testcases.RegisterTest@742ff096]" started-at="2024-03-20T08:13:08 IST" name="closed11" finished-at="2024-03-20T08:13:08 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed11 -->
+      </class> <!-- com.abby.qa.testcases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
